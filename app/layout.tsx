@@ -39,16 +39,17 @@ const bebasNeue = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Books Library",
+  title: "BookLab",
   description:
-    "BooksLibrary is a book borrowing university library management system.",
+    "BookLab is a book borrowing university library management system.",
 };
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
       <body
-        className={`${ibmPlexSans.className} ${bebasNeue.variable} antialiased`}
+        className={`${ibmPlexSans.className} ${bebasNeue.variable} antialiased `}
+        suppressHydrationWarning
       >
         {children}
       </body>
