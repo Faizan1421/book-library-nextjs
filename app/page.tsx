@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <>
       <Button>Click Me</Button>
+      <p>This is the Home page</p>
     </>
   );
 };
